@@ -33,26 +33,6 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
 }
-
-.nav-links ul {
-    display: flex;
-    list-style: none;
-}
-
-.nav-links ul li {
-    margin: 0 15px;
-}
-
-.nav-links ul li a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.nav-links ul li a:hover {
-    color: var(--accent-color);
-}
-
 .cart-icon {
     cursor: pointer;
     transition: transform 0.2s;
