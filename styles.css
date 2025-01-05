@@ -157,7 +157,7 @@ footer {
     }
 
     .filter-container {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .filter-container label {
@@ -222,4 +222,25 @@ footer {
     margin-top: 15px;
     align-self: center;
     padding: 10px 15px;
+}
+@media screen and (max-width: 480px) {
+    .cart-container {
+        position: fixed;
+        top: 15%;
+        right: 5%;
+        width: 172px;
+        max-height: 60%;
+        overflow-y: auto;
+        background-color: white;
+        border: 1px solid var(--secondary-color);
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+    }
+    .cart-icon {
+        margin-right: 72px;
+    }
 }

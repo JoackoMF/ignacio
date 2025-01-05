@@ -9,23 +9,20 @@
 <body>
     <nav class="navbar">
         <h1 class="logo">Tienda Deportiva</h1>
+        <div class="filter-container">
+            <label for="category-filter">Filtrar por categoría:</label>
+            <select id="category-filter">
+                <option value="all">Todas</option>
+                <option value="remeras">Remeras</option>
+                <option value="camperas">Camperas</option>
+                <option value="shorts">Shorts</option>
+                <option value="accesorios">Accesorios</option>
+            </select>
+        </div>
         <div class="cart-icon">
             <span>🛒 Carrito (0)</span>
         </div>
     </nav>
-    <div>
-        
-    </div>
-    <div class="filter-container">
-        <label for="category-filter">Filtrar por categoría:</label>
-        <select id="category-filter">
-            <option value="all">Todas</option>
-            <option value="remeras">Remeras</option>
-            <option value="camperas">Camperas</option>
-            <option value="shorts">Shorts</option>
-            <option value="accesorios">Accesorios</option>
-        </select>
-    </div>
     <main id="product-container">
         <!-- Products will be dynamically loaded here -->
     </main>
